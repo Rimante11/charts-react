@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.headercontainer {
+  background-color: rgb(31, 78, 62);
+  color: aliceblue;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  background-image: linear-gradient(
+    to right,
+    rgb(54, 81, 235),
+    rgb(96, 122, 114)
+  );
+  position: sticky;
+  top: 0%;
+  width: 100%;
+}
+
+.header-title {
+  font-family: "Open Sans", sans-serif;
+  padding-left: 3rem;
+  padding-bottom: 5px;
+}
+
+.vl {
+  border-left: 3px solid aliceblue;
+  height: 50px;
+  border-radius: 1px;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+
+.headerwrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.faIcon {
+  width: auto;
+  height: 30px;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-right: 2rem;
+}
+
+/* .hamburgare {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  align-items: center;
+  padding-right: 2rem;
+} */
+
+.headerElements {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+li:hover {
+  background-color: rgb(31, 78, 62);
+  border-radius: 5px;
+}
+
+.hamburgerUl {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 1.5rem;
+}
+
+.hamburgerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
