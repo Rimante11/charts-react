@@ -10,7 +10,7 @@ const SecondChart = () => {
       type: "line",
     },
     title: {
-      text: "Fourth Chart / Title & Subtitle",
+      text: "Second Chart / Title & Subtitle",
     },
     subtitle: {
       text: "This is my custom subtitle",

@@ -21,7 +21,7 @@
   flex-wrap: wrap;
   width: auto;
   height: auto;
-  padding: 50px;
+  padding: 40px;
   justify-content: space-evenly; /*in the row betwwen charts*/
 }
 
@@ -32,4 +32,23 @@
 .chartBox {
   margin-bottom: 40px; /*space mellan charts under varandra*/
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.scrollContainer {
+  max-width: 800px;
+  min-width: 320px;
+  height: 400px;
+  width: 600px;
+}
+
+.zoomContainer {
+  height: 300px;
+  min-width: 310px;
+  max-width: 800px;
+}
+.zoomChart {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }

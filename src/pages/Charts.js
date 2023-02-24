@@ -3,6 +3,11 @@ import SecondChart from "../charts/SecondChart";
 import ThirdChart from "../charts/ThirdChart";
 import FourthChart from "../charts/FourthChart";
 import FivthChart from "../charts/FivthChart";
+import SixthChart from "../charts/SixthChart";
+import SeventhChart from "../charts/SeventhChart";
+import EighthChart from "../charts/EighthChart";
+import ScrollChart from "../charts/ScrollChart";
+import ZoomingChart from "../charts/ZoomingChart";
 
 import "./chart.css";
 
@@ -27,10 +32,19 @@ const MyChart = () => {
           <FivthChart />
         </div>
         <div className="chartBox">
-          <FirstChart />
+          <SixthChart />
         </div>
         <div className="chartBox">
-          <FirstChart />
+          <SeventhChart />
+        </div>
+        <div className="chartBox">
+          <EighthChart />
+        </div>
+        <div className="chartBox">
+          <ScrollChart />
+        </div>
+        <div className="zoomContainer">
+          <ZoomingChart />
         </div>
       </div>
     </div>

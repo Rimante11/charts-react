@@ -28,7 +28,7 @@ const Hamburger = () => {
             <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <Link to="/testpage">Test page</Link>
+            <Link to="/table">Table</Link>
           </li>
         </ul>
       )}
